@@ -59,6 +59,10 @@
 				<h1>Safety</h1>
 				<?php include_once('include/_safety.php') ?>
 			</div>
+			<div id="booking_old" class="tab-pane fade">
+				<h1>Booking</h1>
+				<?php include_once('include/_booking_old.php') ?>
+			</div>
 			<div id="booking" class="tab-pane fade">
 				<h1>Booking</h1>
 				<?php include_once('include/_booking.php') ?>

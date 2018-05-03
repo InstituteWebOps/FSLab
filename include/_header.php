@@ -14,9 +14,38 @@
 				<div class="collapse navbar-collapse" id="st-navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
 				    	<li><a data-toggle="tab" href="#about">About</a></li>
-				    	<li><a data-toggle="tab" href="#guide">User Guide</a></li>
-				    	<li><a data-toggle="tab" href="#safety">Safety Training</a></li>
-				    	<li><a data-toggle="tab" href="#booking">Booking schedule</a></li>
+
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">User Access<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<!-- If -->
+									<li><a data-toggle="tab" href="#">Register</a></li>
+									<li><a data-toggle="tab" href="#">Log In</a></li>
+								<!-- Else -->
+									<li><a data-toggle="tab" href="#">Account</a></li>
+								<!-- End If -->
+								<li><a href="#">Start a new experiment</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Safety<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a data-toggle="tab" href="#guide">User Guide</a></li>
+								<li><a data-toggle="tab" href="#safety">Training</a></li>
+								<li><a href="test.php" target="_blank">Test</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Booking<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a data-toggle="tab" href="#">Pre-Requisites</a></li>
+								<li><a data-toggle="tab" href="#">Book a Slot</a></li>
+								<li><a data-toggle="tab" href="#">Schedule</a></li>
+							</ul>
+						</li>
+
+				    	<!-- <li><a data-toggle="tab" href="#booking_old">Booking schedule</a></li> -->
+				    	<!-- <li><a data-toggle="tab" href="#booking">Booking new</a></li> -->
 				    	<li><a data-toggle="tab" href="#contactus">Contact Us</a></li>
 				    	<!-- <li><a href="#our-team">Login</a></li>
 				    	<li><a href="blog.html">Blog</a></li> -->

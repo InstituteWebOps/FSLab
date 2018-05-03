@@ -1,3 +1,6 @@
+<?php
+// session_start();
+?>
 <section id="about-us">
     <div class="container-fluid">
         <div class="row">
