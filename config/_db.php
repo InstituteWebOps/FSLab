@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "12017";
-$dbname = "fslab";
+$password = "wmo_16_17";
+$dbname = "fslabnew";
 
 try {
     //make a connection
